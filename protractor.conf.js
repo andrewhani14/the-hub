@@ -18,7 +18,7 @@ exports.config = {
   baseUrl: 'http://localhost:4200/',
   framework: 'jasmine',
   jasmineNodeOpts: {
-    showColors: true,
+    showColors: false,
     defaultTimeoutInterval: 30000,
     print: function() {}
   },
